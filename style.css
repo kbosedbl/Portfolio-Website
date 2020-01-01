@@ -1,3 +1,8 @@
+@media screen and (max-width: 480px) { 
+	#imgn{
+		height: 240px;
+	}
+}
 .animated bounce{
 	animation-duration: 2s;
     animation-delay: 5s;
