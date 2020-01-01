@@ -6,7 +6,7 @@
 #kbosedbl1{
 	margin-left: 42.5%;
 }
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 480px) { 
 	#kbosedbl1{
 		margin-left: 25%;
 	}
