@@ -1,8 +1,16 @@
 @media screen and (max-width: 480px) { 
 	#imgn{
 		height: 240px;
-	}
+	}	
 }
+#kbosedbl1{
+	margin-left: 25%
+}
+@media screen and (max-width: 800px) { 
+	#kbosedbl1{
+		margin-left: 42.5%
+	}
+ }
 .animated bounce{
 	animation-duration: 2s;
     animation-delay: 5s;
