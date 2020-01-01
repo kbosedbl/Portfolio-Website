@@ -4,11 +4,11 @@
 	}	
 }
 #kbosedbl1{
-	margin-left: 25%
+	margin-left: 25%;
 }
 @media screen and (max-width: 800px) { 
 	#kbosedbl1{
-		margin-left: 25%
+		margin-left: 25%;
 	}
  }
 .animated bounce{
