@@ -6,8 +6,11 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="animate.min.css">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -45,12 +48,12 @@
     		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   		</ol>
   		<div class="carousel-inner">
-    		<div class="carousel-item active" >
-      			<img id="imgn" src=https://ariseactsoft.com/wp-content/uploads/WEB-DEVELOPMENT-1.jpg" class="d-block w-100" alt="Web WEB-DEVELOPMENT" height="600">
-    		</div>
-    		<div class="carousel-item" >
+  			<div class="carousel-item" >
       			<img id="imgn" src="https://blog.internshala.com/wp-content/uploads/2018/06/how-to-learn-android-app-development.jpg" class="d-block w-100" alt="APP DEVELOPMENT" height="600">
     		</div>
+    		<div class="carousel-item active" >
+      			<img id="imgn" src="https://ariseactsoft.com/wp-content/uploads/WEB-DEVELOPMENT-1.jpg" class="d-block w-100"  height="600">
+    		</div>    		
     		<div class="carousel-item">
       			<img id="imgn" src="http://www.bhos.edu.az/az/competitive_programming/images/index-logo-picture.png" class="d-block w-100" alt="Competetive Programming" height="600">
     		</div>
@@ -67,7 +70,7 @@
 	<br>
 	<br>
 	<br>
-	<section >
+	<section  data-aos="fadeRight" >
 		<h1 id="about" style="font-family: 'Shadows Into Light', cursive;	text-align: center;	color: blue;" class="animated infinite bounce"><b>About</b></h1>
 		<hr style="max-width: 8rem;border-color: red">	
 		<section style="width:50%;margin-left: 25%">
@@ -75,17 +78,17 @@
 			<p style="text-align: center;font-family: 'Lobster', cursive;"><b>Hello ,I am Kaustav Bose!		
 			I am a sophomore at RCC Institute Of Information Technology,pursuing B.Tech in Computer Science Engineering.I've taken courses on Android and Web.I also enjoy solving problems and puzzles.My areas of interest include App development,Web development,Machine learning and Competitive Programming.My hobbies include playing indoor and outdoor games,reading books,watching movies and listening to music.</b></p>
 		</section>
-		<br>
+		<br>		
 	</section>
 	<br>
-	<section style="background-color: #efffff;">	
+	<section class="item" data-aos="fade-left" style="background-color: #efffff;">	
 		<h1 id="education" style="font-family: 'Shadows Into Light', cursive;	text-align: center;	color: orange;"class="animated infinite bounce"><b>Education</b></h1>
 		<hr style="max-width: 14rem;border-color: green">	
 		<section style="width:50%;margin-left: 25%">
 			<h4 style="text-align: left;font-family: 'Lobster', cursive;"><b>B.Tech In CSE</b></h4>
 			<hr style="margin-left: 0%;max-width: 10rem;border-width: 2px;border-color: purple">
 			<p style="font-family: 'Lobster', cursive;"><b>RCC Institute Of Information Technology (Affiliated to WBUT) | Y.G.P.A - 8.21 ( As of December , 2019 )</b></p>
-			<br>
+			<br>			
 		</section>
 		<section style="width:50%;margin-left: 25%">
 			<h4 style="text-align: left;font-family: 'Lobster', cursive;"><b>I.S.C. (XIIth Standard)</b></h4>
@@ -109,7 +112,7 @@
 		<br>
 	</section>
 	<br>
-	<section style="background-color: #FFF">
+	<section style="background-color: #FFF"  data-aos="fade-right">
 		<h1 id="skills" style="font-family: 'Shadows Into Light', cursive;	text-align: center;	color: black;color: red" class="animated infinite bounce"><b>Skills</b></h1>
 		<hr style="max-width: 14rem;border-color: purple">
 		<br>
@@ -146,7 +149,7 @@
 		</section>
 	</section>	
 	<br>
-	<section style="background-color: #efffff">
+	<section style="background-color: #efffff"  data-aos="fade-left">
 		<section style="width:50%;margin-left: 25%">
 			<h1 id="projects" style="font-family: 'Shadows Into Light', cursive;	text-align: center;	color: black;color: orange" class="animated infinite bounce"><b>Projects</b></h1>
 			<hr style="max-width: 14rem;border-color: indigo">
@@ -161,25 +164,10 @@
 			<br>			
 		</section>
 	</section>
-	<br>
-	<!--<section style="background-color: #FFF">
+	<br>	
+	<section style="background-color: #FFF"  data-aos="fade-right">
 		<section style="width:50%;margin-left: 25%">
-			<h1 id="certificates" style="font-family: 'Shadows Into Light', cursive;	text-align: center;	color: black;color: green"><b>Certificates</b></h1>
-			<hr style="max-width: 14rem;border-color: yellow">
-			<br>
-			<h4 style="text-align: left;font-family: 'Lobster', cursive;"><b>KharchaApp</b></h4>
-			<hr style="margin-left: 0%;max-width: 17rem;border-width: 2px;border-color: blue">		
-			<p style="font-family: 'Lobster', cursive;"><b>An online expense manager app</b>    <a href="https://github.com/kbosedbl/KharchaApp">Project link</a></p>		
-			<br>
-			<h4 style="text-align: left;font-family: 'Lobster', cursive;"><b>Messenger--</b></h4>
-			<hr style="margin-left: 0%;max-width: 17rem;border-width: 2px;border-color: brown">		
-			<p style="font-family: 'Lobster', cursive;"><b>An Online Chat Application quite similar to Whatsapp</b>    <a href="https://github.com/kbosedbl/Messenger-App">Project link</a></p>			
-			<br>			
-		</section>
-	</section>-->
-	<section style="background-color: #FFF">
-		<section style="width:50%;margin-left: 25%">
-			<h1 id="contacts" style="font-family: 'Shadows Into Light', cursive;	text-align: center;	color: black;color: brown" class="animated infinite bounce "><b>Contacts</b></h1>
+			<h1 id="contacts" style="font-family: 'Shadows Into Light', cursive;	text-align: center;	color: black;color: brown" class="animated infinite bounce "><b>Contacts</b></h1>			
 			<hr style="max-width: 14rem;border-color: orange">
 			<br>
 			<h4 style="text-align: left;font-family: 'Lobster', cursive;"><b>Address</b></h4>
@@ -194,13 +182,11 @@
 			<hr style="margin-left: 0%;max-width: 17rem;border-width: 2px;border-color: red">		
 			<p style="font-family: 'Lobster', cursive;"><b>kbosedbl@gmail.com || kaustav.2000@rediffmail.com || kbosedbl@outlook.com</b></p>
 			<br>
-			<h4 style="text-align: left;font-family: 'Lobster', cursive;"><b>LinkedIn Profile</b></h4>
-			<hr style="margin-left: 0%;max-width: 17rem;border-width: 2px;border-color: indigo">		
-			<p style="font-family: 'Lobster', cursive;"><b><a href="https://in.linkedin.com/in/kaustav-bose-3433b1187">Profile link</a></b></p>
+			<br>
 		</section>
 	</section>
-	<br>
-	<section style="background-color: #ffffff">
+	
+	<section style="background-color: #ffffff">		
 		<h4 style="text-align: left;font-family: 'Lobster', cursive;margin-left: 25%"><b>Get In Touch With Me</b></h4>
 		<hr style="margin-left: 25%;max-width: 17rem;border-width: 2px;border-color: green">
 		<form style="max-width: 60%;margin-left: 25%">
@@ -214,6 +200,8 @@
   			</div>
   			<button type="button" class="btn btn-primary">Send</button>
 		</form>
+		<a href="https://in.linkedin.com/in/kaustav-bose-3433b1187"><i class="fa fa-linkedin-square" style="font-size:36px;margin-left: 98%;margin-bottom: 1%;color: blue"></i></a>
+		<a href="https://github.com/kbosedbl"><i class="fa fa-github-square" style="font-size:36px;margin-left: 98%;margin-bottom: 2%;color: black"></i></a>
 		<br>
 	</section >
 	<section style="background-color: #38E7CA;height: 35px;width: 100%">
@@ -222,5 +210,10 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript">
+		AOS.init({duration : 2500,
+		})
+	</script>
 </body>
 </html>
